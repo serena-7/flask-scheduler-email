@@ -3,7 +3,7 @@ import os
 from flask import Flask
 from extensions import scheduler, mail
 
-
+# THIS IS COMMENT AFTER MOVE
 app = Flask(__name__)
 app.config.from_object('config')
 
